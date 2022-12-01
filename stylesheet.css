@@ -2,13 +2,20 @@
   box-sizing: border-box;
 }
 
-html, body {
+.main{
   height: 80%;
   background: #333;
   color: hsl(90, 75%, 50%);
   font-family: monospace;
   margin: 0;
+  position: relative;
 }
-  .title {
-    position: relative;
+.subtitle{
+  height: 40%;
+  background: #333;
+  color: hsl(90, 75%, 50%);
+  font-family: monospace;
+  margin: 0;
+  position: relative;
+
 }
