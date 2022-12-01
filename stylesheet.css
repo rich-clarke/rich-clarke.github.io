@@ -1,21 +1,21 @@
-* {
-  box-sizing: border-box;
-}
-
-.main{
-  height: 80%;
-  background: #333;
-  color: hsl(90, 75%, 50%);
-  font-family: monospace;
+body {
+  background-color: black;
+  background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+  );
+  height: 100vh;
   margin: 0;
-  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+  color: white;
+  font: 1.3rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+ 
 }
-.subtitle{
-  height: 40%;
-  background: #333;
-  color: hsl(90, 75%, 50%);
-  font-family: monospace;
+::selection {
+  background: #0080FF;
+  text-shadow: none;
+}
+pre {
   margin: 0;
-  position: relative;
-
 }
