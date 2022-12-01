@@ -12,6 +12,7 @@ body {
 ::selection {
   background: #0080FF;
   text-shadow: none;
+  padding: 2rem;
 }
 pre {
   margin: 0;
