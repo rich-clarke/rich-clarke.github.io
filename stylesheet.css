@@ -3,6 +3,9 @@ body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
   padding: 2rem;
   color: white;
   font: 1.3rem Inconsolata, monospace;
